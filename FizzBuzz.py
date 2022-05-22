@@ -4,9 +4,8 @@
 5の倍数のときは数字の代わりにBuzzと出力
 15の倍数のときは数字の代わりにFizzBuzzと出力
 """
-begin_num = 1
-end_num = 100
-for num in range(begin_num, end_num+1):
+
+for num in range(1, 101):
     if num % 3 == 0 and num % 5 == 0:
         print("FizzBuzz")
     elif num % 3 == 0:
